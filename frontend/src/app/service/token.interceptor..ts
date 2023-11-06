@@ -7,12 +7,13 @@ import { AuthService } from './auth.service';
   providedIn: 'root'
 })
 export class TokenInterceptor implements HttpInterceptor {
-  constructor(private inject:Injector) {}
+  constructor(private inject: Injector) {}
+
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
-    let authService=this.inject.get(AuthService);
+    let authService = this.inject.get(AuthService);
     let jwtToken = req.clone({
       setHeaders: {
-        Authorization: 'Bearer ' + req.url.includes("api.themoviedb.org") ? authService.getTheMovieDbToken() : authService.getToken()
+        Authorization: 'Bearer ' + (req.url.includes("api.themoviedb.org") ? authService.getTheMovieDbToken() : authService.getToken())
       }
     });
     return next.handle(jwtToken);

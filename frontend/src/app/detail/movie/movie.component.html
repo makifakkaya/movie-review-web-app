@@ -1,6 +1,7 @@
 <div class="_movie-detail row">
   <div class="_movie-description col col-md-8 col-12">
-    <h1 class="_title">{{movie?.title}}</h1>
+    <h1 class="_title">
+    {{movie?.title}}</h1>
     <h4 class="_tag-line"><i>{{movie?.tagline}}</i></h4>
     <hr>
     <p>{{movie?.overview}}</p>
@@ -15,7 +16,15 @@
     </div>
   </div>
   <div class="_movie-poster col col-md-4 col-12 mb-5">
-    <img [src]="'https://image.tmdb.org/t/p/w440_and_h660_face/'+movie?.poster_path" alt="">
+    <img  alt="">
+    <div class="_card mb-3">
+      <div class="_card-banner">
+        <span (click)="toggleLike()" class="heart big-heart">
+      <i [ngStyle]="{'color': isLiked ? 'red' : ''}" class="bi" [ngClass]="isLiked ? 'bi-heart-fill' : 'bi-heart'"></i>
+    </span><img [src]="'https://image.tmdb.org/t/p/w440_and_h660_face/'+movie?.poster_path" alt="">
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -33,7 +42,7 @@
   <h2>Similar Movies</h2>
   <hr>
   <div class="col col-lg-2 col-md-4 col-sm-6 col-6" *ngFor="let movie of similarMovies?.slice(0, 6)">
-    <app-movie-card [href]="'/movie/'+movie.id" [title]=movie.title
+    <app-movie-card [_id]="movie.id" [href]="'/movie/'+movie.id" [title]=movie.title
               [src]="'https://www.themoviedb.org/t/p/w440_and_h660_face/' + movie.poster_path"></app-movie-card>
   </div>
 </div>

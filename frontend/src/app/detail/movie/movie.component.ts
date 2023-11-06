@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import {Component, Input, OnInit} from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
 import {Movie} from "../../model/Movie";
 import {TmdbService} from "../../service/tmdb.service";
 import {Person} from "../../model/Person";
+import {MovieService} from "../../service/movie.service";
 
 @Component({
   selector: 'app-movie',
@@ -14,19 +15,35 @@ export class MovieComponent implements OnInit {
   similarMovies: Movie[] | undefined;
   movieCredits: Person[] | undefined;
   images: String[] | undefined;
+  isLiked: boolean = false;
 
-  constructor(private _movieService: TmdbService, private route: ActivatedRoute) { }
+  constructor(private _tmdbService: TmdbService, private _movieService: MovieService, private route: ActivatedRoute) {
+  }
 
   async ngOnInit() {
     this.route.params.subscribe(async params => {
-      this.movie = await this._movieService.getMovieById(params['id']);
-      this.similarMovies = await this._movieService.getSimilarMovies(params['id']);
-      this.movieCredits = await this._movieService.getMovieCredits(params['id']);
-      this.images = await this._movieService.getMoviesImages(params['id']);
-      console.log(this.movie);
-      console.log(this.similarMovies);
-      console.log(this.movieCredits);
-      console.log(this.images);
+      if (params['id'] !== undefined) {
+        // @ts-ignore
+        this.isLiked = await this._movieService.isInWatchlist(params['id'], localStorage.getItem('id'));
+      }
+      this.movie = await this._tmdbService.getMovieById(params['id']);
+      this.similarMovies = await this._tmdbService.getSimilarMovies(params['id']);
+      this.movieCredits = await this._tmdbService.getMovieCredits(params['id']);
+      this.images = await this._tmdbService.getMoviesImages(params['id']);
+    });
+  }
+
+  async toggleLike() {
+    this.route.params.subscribe(async params => {
+      if (this.isLiked) {
+        this.isLiked = !this.isLiked;
+        // @ts-ignore
+        await this._movieService.removeWatchList(params['id'], localStorage.getItem('id'))
+      } else {
+        this.isLiked = !this.isLiked;
+        // @ts-ignore
+        await this._movieService.addWatchList(params['id'], localStorage.getItem('id'))
+      }
     });
   }
 }

@@ -25,7 +25,7 @@ export class AuthService {
     return localStorage.getItem('token') || '';
   }
   getTheMovieDbToken() {
-    return 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwNWY0YTc1ZjY1NzI5YThiNWYzODQzOTg3NmVhOWMxYSIsInN1YiI6IjYyZjUxZDQ5NTk0Yzk0MDA3YWE2OTVmZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.3paUodxpobsZCElEgs793zErSe58xjj07254K-PZhPU';
+    return 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwNWY0YTc1ZjY1NzI5YThiNWYzODQzOTg3NmVhOWMxYSIsInN1YiI6IjYyZjUxZDQ5NTk0Yzk0MDA3YWE2OTVmZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.3paUodxpobsZCElEgs793zErSe58xjj07254K-PZhPU';
   }
 
   async isSuperAdmin() {

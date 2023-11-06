@@ -1,9 +1,10 @@
 <div class="_card mb-3">
-    <div class="_card-banner">
-      <a [href]="href"><span class="title">{{ title }}</span></a>
-      <a [href]="href"><span class="play"><i class="bi bi-play"></i></span></a>
-      <span *ngIf="!this.isLiked" (click)="this.isLiked = true" class="heart"><i class="bi bi-heart"></i></span>
-      <span *ngIf="this.isLiked" (click)="this.isLiked = false" class="heart active-heart"><i class="bi bi-heart-fill"></i></span>
-      <a  [href]="href"><img [src]="src" alt=""></a>
-    </div>
+  <div class="_card-banner">
+    <a [href]="href"><span class="title">{{ title }}</span></a>
+    <a [href]="href"><span class="play"><i class="bi bi-play"></i></span></a>
+    <span (click)="toggleLike()" class="heart">
+      <i [ngStyle]="{'color': isLiked ? 'red' : ''}" class="bi" [ngClass]="isLiked ? 'bi-heart-fill' : 'bi-heart'"></i>
+    </span>
+    <a [href]="href"><img [src]="src" alt=""></a>
+  </div>
 </div>

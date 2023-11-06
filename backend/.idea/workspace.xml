@@ -5,50 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2529ceba-39df-42b1-8983-e3ef65e84afa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/LOGO.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/customer/customer.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/customer/customer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/customer/customer.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/customer/customer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/customer/listing-customer/listing-customer.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/customer/listing-customer/listing-customer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/customer/listing-customer/listing-customer.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/customer/listing-customer/listing-customer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/dashboard.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/dashboard.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/dashboard.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/dashboard.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/user/listing-role/listing-role.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/user/listing-role/listing-role.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/user/listing-role/listing-role.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/user/listing-role/listing-role.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/user/listing-user/listing-user.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/user/listing-user/listing-user.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/user/listing-user/listing-user.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/user/listing-user/listing-user.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/user/user.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/user/user.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/user/user.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/user/user.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/vendor/listing-vendor/listing-vendor.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/vendor/listing-vendor/listing-vendor.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/vendor/listing-vendor/listing-vendor.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/vendor/listing-vendor/listing-vendor.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/vendor/vendor.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/vendor/vendor.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/vendor/vendor.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/vendor/vendor.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/working-area/listing-working-area/listing-working-area.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/working-area/listing-working-area/listing-working-area.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/working-area/listing-working-area/listing-working-area.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/working-area/listing-working-area/listing-working-area.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/working-area/working-area.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/working-area/working-area.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/working-area/working-area.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/dashboard/working-area/working-area.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/layout/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/layout/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/component/movie-card/movie-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/component/movie-card/movie-card.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/component/movie-card/movie-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/component/movie-card/movie-card.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/detail/movie/movie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/detail/movie/movie.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/detail/movie/movie.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/detail/movie/movie.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/service/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/service/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/service/error.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/service/error.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/service/token.interceptor..ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/service/token.interceptor..ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +72,7 @@
       <workItem from="1699097360833" duration="5229000" />
       <workItem from="1699128925478" duration="623000" />
       <workItem from="1699180131551" duration="1223000" />
-      <workItem from="1699257895858" duration="5974000" />
+      <workItem from="1699257895858" duration="7146000" />
     </task>
     <servers />
   </component>
@@ -115,17 +81,5 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/api/movie.js</url>
-          <line>38</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

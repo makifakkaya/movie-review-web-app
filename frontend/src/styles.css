@@ -240,8 +240,6 @@ body {
   transition: opacity 0.5s;
 }
 
-
-
 ._card-banner .heart {
   position: absolute;
   font-size: 25px;
@@ -394,5 +392,10 @@ body {
 .close:focus {
   color: #bbb;
   text-decoration: none;
+  cursor: pointer;
+}
+
+
+.heart:hover{
   cursor: pointer;
 }
