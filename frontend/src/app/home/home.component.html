@@ -1,0 +1,21 @@
+<div class="row mb-5">
+  <h2>Trending Movies</h2>
+  <hr>
+  <div class="col col-lg-2 col-md-4 col-sm-6 col-6" *ngFor="let movie of popularMovies.slice(0, 6)">
+    <app-movie-card [_id]="movie.id" [href]="'/movie/'+movie.id" [title]=movie.title [src]="'https://www.themoviedb.org/t/p/w440_and_h660_face/' + movie.poster_path"></app-movie-card>
+  </div>
+</div>
+<div class="row mb-5">
+  <h2>Trending Tv Shows</h2>
+  <hr>
+  <div class="col col-lg-2 col-md-4 col-sm-6 col-6" *ngFor="let tvShow of popularTvShows.slice(0, 6)">
+    <app-tv-show-card [_id]="tvShow.id" [href]="'/tv-show/'+tvShow.id" [title]=tvShow.name [vote_average]=tvShow.vote_average [src]="'https://www.themoviedb.org/t/p/w440_and_h660_face/' + tvShow.poster_path"></app-tv-show-card>
+  </div>
+</div>
+<div class="row mb-5">
+  <h2>Trending People</h2>
+  <hr>
+  <div class="col col-lg-1 col-md-3 col-sm-4 col-4" *ngFor="let person of popularPeople.slice(0, 12)">
+    <app-person-card [href]="'/person/'+person.id" [title]="person.name" [src]="'https://www.themoviedb.org/t/p/w440_and_h660_face/' + person.profile_path"></app-person-card>
+  </div>
+</div>

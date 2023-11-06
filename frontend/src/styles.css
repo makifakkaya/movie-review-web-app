@@ -1,0 +1,398 @@
+a{
+  text-decoration: none !important;
+  color: #ea2730 !important;
+}
+
+/* You can add global styles to this file, and also import other style files */
+.card-box {
+  padding: 10px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.btn-block {
+  /* display: block;
+  width: 100%; */
+}
+
+.header {
+  width: 100%;
+  background-color: lightblue;
+  height: 40px;
+}
+
+.menulink {
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.error {
+  color: red;
+}
+
+.sucess {
+  color: green;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #37474F;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+
+#sidebar .nav {
+
+}
+
+#sidebar .nav a {
+  background: none;
+  border-bottom: 1px solid #455A64;
+  color: #CFD8DC;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+
+#sidebar .nav a:hover {
+  background: none;
+  color: #ECEFF1;
+}
+
+._header-brand img {
+  height: 50px;
+}
+
+._header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+._header {
+  padding: 15px 0;
+}
+
+._header ._header-action button {
+  margin-left: 10px;
+}
+
+._header-menu ._main-menu-item {
+  display: inline;
+  margin: 0 15px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+}
+
+._header-menu ._main-menu {
+  margin: 0;
+  padding: 0;
+}
+
+._header-menu, ._header-action, ._header-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-primary {
+  font-weight: 500 !important;
+  padding: 10px 20px !important;
+  border-radius: 50px !important;
+  background-color: #E50914 !important;
+  border-width: 2px !important;
+  border-color: #E50914 !important;
+}
+
+.btn-primary:hover {
+  background-color: darkred !important;
+  border-color: darkred !important;
+
+}
+
+.btn-outline-primary {
+  font-weight: 500 !important;
+  padding: 10px 20px !important;
+  border-radius: 50px !important;
+  border-color: #E50914 !important;
+  border-width: 2px !important;
+  color: white !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: darkred !important;
+  border-color: darkred !important;
+}
+
+body {
+  background-color: #232323 !important;
+  color: white !important;
+}
+
+._active-page {
+  padding: 10px 20px;
+  border-bottom: 2px solid #E50914 !important;
+}
+
+._header-menu ._main-menu-item:hover {
+  padding: 10px 20px;
+  border-bottom: 2px solid #E50914;
+}
+
+._header-menu a {
+  text-decoration: none;
+  color: white !important;
+}
+
+
+._card img {
+  max-width: 100%;
+}
+
+._card-banner {
+  position: relative;
+  display: inline-block;
+}
+
+._card-banner .title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+._card-banner .play {
+  position: absolute;
+  font-size: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+
+
+._card-banner .heart {
+  position: absolute;
+  font-size: 25px;
+  top: 0;
+  right: 0;
+  width: 50px;
+  text-shadow: 0px 0px 5px black;
+  height: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+
+._card-banner .heart:hover i {
+  color: #E50914;
+}
+
+._card-banner .active-heart{
+  color: #E50914;
+}
+
+._card-banner:hover span {
+  opacity: 1;
+}
+
+._footer{
+  text-align: center;
+  padding: 75px 0;
+}
+
+._footer-quotation{
+  font-size: 24px;
+  padding: 20px 20px;
+  border: 1px solid dimgray;
+  border-radius: 20px;
+}
+
+._login-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+._login-card{
+  border: 1px solid dimgray;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+._profile-picture{
+  width: 26.266px;
+  height: 26.266px;
+  border-radius: 50%;
+  border: 0.5px solid white;
+}
+
+._footer-copyright{
+  color: lightgray;
+}
+
+._movie-poster img{
+  width: 100%;
+}
+
+
+._tag-line{
+  color:darkgray;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  ._movie-detail{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}

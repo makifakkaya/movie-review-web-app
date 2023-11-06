@@ -1,0 +1,24 @@
+
+<div class="_header">
+    <div class="_header-brand">
+      <a href="/">
+        <img src="https://i.hizliresim.com/l44xjio.png" alt="">
+      </a>
+    </div>
+    <div class="_header-menu">
+      <ul class="_main-menu">
+        <a href=""><li class="_active-page _main-menu-item">Home</li></a>
+        <a href=""><li class="_main-menu-item">Movies</li></a>
+        <a href=""><li class="_main-menu-item">Tv Shows</li></a>
+      </ul>
+    </div>
+    <div class="_header-action">
+      <div class="_header_buttons">
+        <button class="btn btn-outline-primary" *ngIf="localStorage.getItem('id') == null">Register</button>
+        <button class="btn btn-primary" *ngIf="localStorage.getItem('id') == null">Sign In</button>
+        <div class="_profile-section">
+          <button class="btn btn-primary btn-profile" *ngIf="localStorage.getItem('id') != null"><img class="_profile-picture me-1" src="https://media.licdn.com/dms/image/D4D03AQHj_6OVqaTCpQ/profile-displayphoto-shrink_400_400/0/1687986909035?e=1704931200&v=beta&t=yhz_yc8_026h1DwaQdu2rIcq-u5Dp6zoMyhn0nKko7s" alt=""> My Profile</button>
+        </div>
+      </div>
+    </div>
+</div>

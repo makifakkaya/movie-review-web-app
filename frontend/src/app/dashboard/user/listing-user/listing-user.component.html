@@ -1,0 +1,22 @@
+<table class="table table-striped">
+  <thead class="thead-dark">
+  <tr>
+    <th>#</th>
+    <th>Fullname</th>
+    <th>Email</th>
+    <th>Roles</th>
+    <th>Created Date</th>
+    <th>Updated Date</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let user of users; let i=index">
+    <td>{{i+1}}</td>
+    <td>{{user.name}}</td>
+    <td>{{user.email}}</td>
+    <td>{{user.role}}</td>
+    <td>{{user.createdAt | date: 'dd.MM.yyyy hh:mm:ss'}}</td>
+    <td>{{user.updatedAt | date: 'dd.MM.yyyy hh:mm:ss'}}</td>
+  </tr>
+  </tbody>
+</table>
