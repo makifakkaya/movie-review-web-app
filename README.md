@@ -1,4 +1,3 @@
-![Screenshot 2023-11-06 at 20-03-24 Frontend](https://github.com/makifakkaya/movie-review-web-app/assets/60367291/aef3889d-82e4-4c65-a262-91c4ac462839)# movie-review-web-app
 Developed with Angular &amp; Node.js.
 
 <img width="1552" alt="Screenshot 2023-11-06 at 20 10 52" src="https://github.com/makifakkaya/movie-review-web-app/assets/60367291/1513be71-6806-4232-be9e-acaeac7c4451">
