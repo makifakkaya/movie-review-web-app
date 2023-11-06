@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2529ceba-39df-42b1-8983-e3ef65e84afa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/movie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/component/movie-card/movie-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/component/movie-card/movie-card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/component/movie-card/movie-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/component/movie-card/movie-card.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/detail/movie/movie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/detail/movie/movie.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/detail/movie/movie.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/detail/movie/movie.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/service/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/service/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/service/error.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/service/error.interceptor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/service/token.interceptor..ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/service/token.interceptor..ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/layout/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/layout/header/header.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +66,7 @@
       <workItem from="1699097360833" duration="5229000" />
       <workItem from="1699128925478" duration="623000" />
       <workItem from="1699180131551" duration="1223000" />
-      <workItem from="1699257895858" duration="7146000" />
+      <workItem from="1699257895858" duration="8017000" />
     </task>
     <servers />
   </component>

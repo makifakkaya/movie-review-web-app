@@ -399,3 +399,39 @@ body {
 .heart:hover{
   cursor: pointer;
 }
+
+
+._header-hamburger-menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  ._header-hamburger-menu {
+  display: flex;
+  }
+  ._header-menu{
+    display: none;
+  }
+  ._header-action{
+    display: none;
+  }
+}
+
+
+
+@media screen and (min-width: 992px) {
+  ._header-hamburger-menu {
+    display: none;
+  }
+  ._header-menu{
+    display: flex;
+  }
+  ._header-action{
+    display: flex;
+  }
+}
